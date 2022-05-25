@@ -2,6 +2,8 @@
 
 This tool can help you commit and push your code to server if emergency happened.
 
+Inspired by [git-eq](https://github.com/jmevel/git-eq.git).
+
 You save your code and type:
 
 ```shell
@@ -23,8 +25,10 @@ The tool will add and commit your uncommitted files, and push it to the server w
 
 ## Installation
 
+Clone this repo and change directory into it, then you can type the following command to install the executable file to your machine.
+
 ```shell
-cargo install git-mg
+cargo install --path ./
 ```
 
 ## Usage
