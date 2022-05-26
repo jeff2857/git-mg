@@ -19,5 +19,6 @@ fn main() -> Result<()> {
 
     //println!("{}", commit_message);
     git_emergency(&commit_message)?;
+
     Ok(())
 }
